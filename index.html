@@ -1,128 +1,256 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<title>Coming Soon 13</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--===============================================================================================-->	
-	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="css/util.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-<!--===============================================================================================-->
-</head>
-<body>
-	
-	<!--  -->
-	<div class="simpleslide100">
-		<div class="simpleslide100-item bg-img1" style="background-image: url('images/bg01.jpg');"></div>
-		<div class="simpleslide100-item bg-img1" style="background-image: url('images/bg02.jpg');"></div>
-		<div class="simpleslide100-item bg-img1" style="background-image: url('images/bg03.jpg');"></div>
-		<div class="simpleslide100-item bg-img1" style="background-image: url('images/bg04.jpg');"></div>
-	</div>
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Zoolhelmy.com Portfolio</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
 
-	<div class="flex-col-c-sb size1 overlay1 p-l-75 p-r-75 p-t-20 p-b-40 p-lr-15-sm">
-		<!--  -->
-		<div class="w-full flex-w flex-sb-m">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-83420166-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.scrolly.min.js"></script>
+		<script src="js/jquery.scrollzer.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-wide.css" />
+		</noscript>
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<link href="favicon.ico" rel="icon" type="image/x-icon" />
+		<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+		<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+		<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+		<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+		<link rel="manifest" href="/manifest.json">
+		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="theme-color" content="#ffffff">		
+	</head>
+	<body>
+
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=180559913858&version=v2.3";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+		<!-- Header -->
+			<div id="header" class="skel-layers-fixed">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
+							<h1 id="title">Zoolhelmy</h1>
+							<p>Professional IT</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<!--
+							
+								Prologue's nav expects links in one of two formats:
+								
+								1. Hash link (scrolls to a different section within the page)
+								
+								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
+
+								2. Standard link (sends the user to another page/site)
+
+								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
+							
+							-->
+							<ul>
+								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
+								<li><a href="#resume" id="resume-link" class="skel-layers-ignoreHref"><span class="icon fa-user">Resume</span></a></li>
+								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
+							</ul>
+						</nav>
+						
+				</div>
+				
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a target="_blank" href="http://www.linkedin.com/in/zoolhelmy" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a target="_blank" href="http://www.facebook.com/zoolhelmy" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a target="_blank" href="https://www.instagram.com/zool_laaa" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a target="_blank" href="https://www.pinterest.com/zoolhelmy/" class="icon fa-pinterest-p"><span class="label">Pinterest</span></a></li>
+						</ul>
+				
+				</div>
 			
-			<div class="flex-w cd100 p-t-15 p-b-15 p-r-36">
-				<div class="flex-w flex-b m-r-22 m-t-8 m-b-8">
-					<span class="l1-txt1 wsize1 days">35</span>
-					<span class="m1-txt1 p-b-2">Days</span>
-				</div>
-
-				<div class="flex-w flex-b m-r-22 m-t-8 m-b-8">
-					<span class="l1-txt1 wsize1 hours">17</span>
-					<span class="m1-txt1 p-b-2">Hr</span>
-				</div>
-
-				<div class="flex-w flex-b m-r-22 m-t-8 m-b-8">
-					<span class="l1-txt1 wsize1 minutes">50</span>
-					<span class="m1-txt1 p-b-2">Min</span>
-				</div>
-
-				<div class="flex-w flex-b m-r-22 m-t-8 m-b-8">
-					<span class="l1-txt1 wsize1 seconds">39</span>
-					<span class="m1-txt1 p-b-2">Sec</span>
-				</div>
 			</div>
 
-		</div>
+		<!-- Main -->
+			<div id="main">
 
-		<!--  -->
-		<div class="flex-col-c-m p-l-15 p-r-15 p-t-80 p-b-90">
-			<h3 class="l1-txt2 txt-center p-b-55 respon1">
-				Coming Soon
-			</h3>
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
 
-		</div>
-		
-		<div class="flex-sb-m flex-w w-full">
-			<!--  -->
-			<div class="flex-w flex-c-m m-t-10 m-b-10">
-				<a href="http://facebook.com/zoolhelmy" class="size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-3 m-t-3">
-					<i class="fa fa-facebook"></i>
-				</a>
+							<header>
+								<h2 class="alt">Hi! I'm <strong>Zoolhelmy</strong>, a professional IT guy<br />
+								based in Kuala Lumpur, Malaysia.</h2>
+								<p>My areas are mainly in telecommunication,<br />
+								and addicted to IT for the past 17 years</p>
+							</header>
+							
+							<footer>
+								<a href="#contact" class="button scrolly">OK, I get it</a>
+							</footer><br/>
+							
+							<ul class="icons">
+								<li><a target="_blank" href="http://www.linkedin.com/in/zoolhelmy" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+								<li><a target="_blank" href="http://www.facebook.com/zoolhelmy" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+								<li><a target="_blank" href="https://plus.google.com/102346324494507296756/about" class="icon fa-google-plus"><span class="label">Google Plus</span></a></li>
+								<li><a target="_blank" href="https://www.pinterest.com/zoolhelmy/" class="icon fa-pinterest-p"><span class="label">Pinterest</span></a></li>
+								<li><a target="_blank" href="skype:zool.johan.actix?action" class="icon fa-skype"><span class="label">Skype</span></a></li>
+								<li><div style="top: -10px;" class="fb-like" data-href="http://www.zoolhelmy.com" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div></li>
+							</ul>
 
-				<a href="https://www.instagram.com/zool_laaa/" class="size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-3 m-t-3">
-					<i class="fa fa-instagram"></i>
-				</a>
+						</div>
+					</section>
+					
+				<!-- Resume -->
+					<section id="resume" class="two">
+						<div class="container">
+					
+							<header>
+								<h2>Resume</h2>
+							</header>
+							
+							<p>Extensive professional experience in various functional team as a key person, telecom operation, IT system integration & deployment, software development & electrical engineering. 17 years total experience as professional management and technical. 4 years with DiGi telecom operator as Service and Performance Manager. 5 years with Actix as Solution Architect for 14 telecom operator worldwide.</p>
+						
+							<div class="nine columns main-col">
 
+								<div class="row item">
+
+									<div class="twelve columns">
+										<hr/>
+										<h3>Vanderbilt University</h3>
+										<h1>Nashville, Tennessee, USA</h1>
+										<p class="info">Electrical Engineering <span>&bull;</span> <em class="date">December 1997</em></p>
+										<p>
+										The electrical engineer has been primarily responsible for the computer revolution that society is experiencing. The development of large-scale integrated circuits has led to the development of computers in a broad range of sizes and capabilities. Computers greatly influence the methods used by engineers for designing and problem solving. The curricula of the electrical engineering and computer engineering majors* are multifaceted. They provide a broad foundation in mathematics, physics, and computer science and a traditional background in circuit analysis and electronics. Several exciting areas of concentration are available, including microelectronics, computer systems, communications, control systems, and signal processing. Students receive an education that prepares them for diverse careers in industry and government and for postgraduate education. The program leading to the Bachelor of Engineering degree in electrical engineering is accredited by the Engineering Accreditation Commission of ABET, <a href='http://www.abet.org'>abet.org</a>.
+										</p>
+
+										<hr/>
+										<h3>Actix, Kuala Lumpur</h3>
+										<p class="info">Solution Architect, 2010 - Present</p>
+										<p>
+										Key technical solution owner between business owner & technical team.<br/>
+										Translate end to end deliveries requirement for customer expectation.<br/>
+										Oversee the whole system & interconnect, drive customer input to implementation, capacity dimensioning, reuse customized system, vendor management.<br/>
+										Technical Consultant for 2G/3G/4G radio planning systems, onsite deployment, configuration, OSS integration & OSS bridge customization.<br/>
+										Lead engineers for deployment & RFS/FA/UAT readiness.<br/>
+										Key customers: Maxis, AT&T US, T-Mobile US, DU/Etisalat UAE, Alfa Lebanon, Zain Kuwait, True & TOT Thai, Reliance Jio India, Globe Philippines, China Telecom & Robi Bangladesh.<br/>
+										</p>
+
+										<hr/>
+										<h3>DiGi Telecommunication, Shah Alam</h3>
+										<p class="info">Service & Performance Manager, 2006 - 2010</p>
+										<p>
+										Service & system performance manager for Prepaid, VAS & IDD operation.<br/>
+										Festivity readiness, marketing & customer service.<br/>
+										Operation live migration for 9 mill prepaid subscriber service care taker.<br/>
+										SLA owner for hosting vendor to ensure excellent service assurance.<br/>
+										Formulate and develop service KPI dashboard for high level view, monitoring & report automation.<br/>
+										</p>
+										
+										<hr/>
+										<h3>FaraTech (M) Sdn Bhd, Mines</h3>
+										<p class="info">Project/Product Manager, 2003 - 2006</p>
+										<p>
+										Building up a new organization, hiring and managing team members.<br/>
+										Set & lead development and operations of IT.<br/>
+										Key client: Ministry of Entrepreneur and Cooperative Development, MARA, JKR Central, ProtonCommerce Finance, Pejabat Daerah dan Tanah Klang.<br/>
+										</p>
+										
+										<hr/>
+										<h3>Western Digital, Kelana Jaya</h3>
+										<p class="info">Product Engineer, 2000 - 2003</p>
+										<p>
+										Product Engineering: 1st level Failure Analysis for manufacturing yield.<br/>
+										Production Statistical Process Control and yield monitoring.<br/>
+										Technology and product transfer from California facilities annually and to ensure high result mass production.<br/>
+										</p>
+										
+										<hr/>
+										<h3>Amtel/RCT, Sunway</h3>
+										<p class="info">Project Engineer, 1998 - 2000</p>
+										<p>
+										Remote Terminal Unit (RTU) and electronic watt meter development.<br/>
+										PCB design, firmware & software development.<br/>
+										</p>
+										
+									</div>
+
+								</div> <!-- item end -->
+
+							</div> <!-- main-col end -->
+		 
+						</div>
+					</section>
+
+				<!-- Contact -->
+					<section id="contact" class="four">
+						<div class="container">
+
+							<header>
+								<h2>Contact</h2>
+							</header>
+
+							<p>If you are interested in getting further information about me, please do not hesitate to contact me via any of the social media below.</p>
+							
+							<ul class="icons">
+								<li><a target="_blank" href="http://www.linkedin.com/in/zoolhelmy" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+								<li><a target="_blank" href="http://www.facebook.com/zoolhelmy" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+								<li><a target="_blank" href="https://plus.google.com/102346324494507296756/about" class="icon fa-google-plus"><span class="label">Google Plus</span></a></li>
+								<li><a target="_blank" href="skype:zool.johan.actix?action" class="icon fa-skype"><span class="label">Skype</span></a></li>
+							</ul>
+						</div>
+					</section>
+			
 			</div>
 
-		</div>
-	</div>
+		<!-- Footer -->
+			<div id="footer">
+				
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; since 1975. All rights reserved.</li><li>Hosted at: <a href="http://www.zoolhelmy.com">Zoolhelmy.com</a></li>
+					</ul>
+				
+			</div>
 
-
-
-	
-
-<!--===============================================================================================-->	
-	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/bootstrap/js/popper.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/select2/select2.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/countdowntime/moment.min.js"></script>
-	<script src="vendor/countdowntime/moment-timezone.min.js"></script>
-	<script src="vendor/countdowntime/moment-timezone-with-data.min.js"></script>
-	<script src="vendor/countdowntime/countdowntime.js"></script>
-	<script>
-		$('.cd100').countdown100({
-			/*Set Endtime here*/
-			/*Endtime must be > current time*/
-			endtimeYear: 0,
-			endtimeMonth: 0,
-			endtimeDate: 35,
-			endtimeHours: 19,
-			endtimeMinutes: 0,
-			endtimeSeconds: 0,
-			timeZone: "" 
-			// ex:  timeZone: "America/New_York"
-			//go to " http://momentjs.com/timezone/ " to get timezone
-		});
-	</script>
-<!--===============================================================================================-->
-	<script src="vendor/tilt/tilt.jquery.min.js"></script>
-	<script >
-		$('.js-tilt').tilt({
-			scale: 1.1
-		})
-	</script>
-<!--===============================================================================================-->
-	<script src="js/main.js"></script>
-
-</body>
+	</body>
 </html>
